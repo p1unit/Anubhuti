@@ -1,7 +1,9 @@
-package knit.anubhuti;
+package knit.anubhuti.Activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import knit.anubhuti.R;
 
 public class MainActivity extends AppCompatActivity {
 
