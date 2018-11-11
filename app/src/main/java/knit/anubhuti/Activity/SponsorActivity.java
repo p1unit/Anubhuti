@@ -36,7 +36,7 @@ public class SponsorActivity extends AppCompatActivity {
         setContentView(R.layout.activity_sponsor);
         sponsors = (Button) findViewById(R.id.button);
         sponsortext =(TextView)findViewById(R.id.sponsors);
-       recyclerView =(RecyclerView)findViewById(R.id.sponsor_recyclerview);
+        recyclerView =(RecyclerView)findViewById(R.id.sponsor_recyclerview);
 
         database =FirebaseDatabase.getInstance();
         reference=database.getReference("SponsorDetail");
@@ -51,7 +51,7 @@ public class SponsorActivity extends AppCompatActivity {
                             SponsorDetail listdata=new SponsorDetail();
 //                            ListData listData = dataSnapshot1.getValue(ListData.class);
 //                            String name = listData.getName();
-                            listdata.setName(dataSnapshot1.child("description").getValue(String.class));
+                            listdata.setName(dataSnapshot1.child("description").getValue().toString());
                             String name =listdata.getName();
                             sponsortext.setText(name);
 
