@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "1077069220423-ba130td9s9v7o2lote9t2ajrllj2mura.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "knit.anubhuti",
+            "certificate_hash": "eaaf66cde2ea67c1d50de5b6d0e658d9376b11f0"
+          }
+        },
+        {
           "client_id": "1077069220423-f9qiuqsl092sh3h5pit1b3o48rpi0osg.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -40,7 +48,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "1077069220423-f9qiuqsl092sh3h5pit1b3o48rpi0osg.apps.googleusercontent.com",
+              "client_id": "1077069220423-c6esariotk7hgsniqql2u4b331e4m75j.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
